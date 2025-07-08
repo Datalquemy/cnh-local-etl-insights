@@ -20,6 +20,8 @@ Control de Versiones: Git, GitHub
 🧪 Estructura del Proyecto
 El repositorio está organizado siguiendo las etapas de un pipeline de datos, facilitando la comprensión y el seguimiento del flujo de información:
 
+
+```plaintext
 cnh-local-etl-insights/
 ├── README.md                           # Archivo principal de descripción del proyecto
 ├── .gitignore                          # Archivo para control de versiones
@@ -34,6 +36,7 @@ cnh-local-etl-insights/
 │   └── 04_cnh_production_insights_analysis.ipynb
 ├── plots/                              # Carpeta para las imágenes de los gráficos (enlazadas en este README)
 └── ML/                                 # Futura carpeta para modelos de Machine Learning
+```
 
 📊 Principales Hallazgos
 Basado en el análisis de los datos de producción de hidrocarburos de la CNH para el periodo 2016-2024, los hallazgos clave incluyen:
