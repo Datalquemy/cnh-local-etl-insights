@@ -63,42 +63,58 @@ Aquí se presentan los gráficos generados, cada uno con su insight correspondie
 
 Gráfico 1: Producción Total Anual de Petróleo (2016–2024)
 Insight: La producción total anual de petróleo en México muestra una tendencia general a la baja desde 2016, con una posible estabilización o ligera recuperación en los últimos años del periodo analizado (2022-2024). Esto sugiere desafíos en la reposición de reservas o en la eficiencia de la extracción a nivel nacional.
+![Producción Total Anual de Petróleo](plots/produccion_anual_petroleo.png)
 
 Gráfico 2: Producción Total Anual de Gas Natural sin Nitrógeno (2016–2024)
 Insight: Similar al petróleo, la producción total anual de gas natural sin nitrógeno también ha experimentado una disminución sostenida a lo largo del periodo 2016-2024. Esto indica una tendencia general a la baja en la producción de hidrocarburos en México, tanto líquidos como gaseosos.
+![Producción Total Anual de Gas](plots/produccion_anual_gas.png)
 
 Gráfico 3: Comparativa Anual de Producción: Petróleo vs Gas (2016–2024)
 Insight: Al comparar ambas tendencias, se observa que tanto la producción de petróleo como la de gas natural siguen patrones de declive similares en el periodo. No hay una correlación inversa significativa donde la caída de uno sea compensada por el aumento del otro, lo que refuerza la idea de un desafío sistémico en la producción de hidrocarburos del país.
+![Comparativa Anual Petróleo-Gas](plots/comparativa_anual_petroleo_gas.png)
 
 Gráfico 4: Producción Anual por Recurso (Barras Agrupadas) (2016–2024)
 Insight: Este gráfico de barras agrupadas visualiza claramente la magnitud relativa de la producción de petróleo frente al gas en cada año. Confirma la dominancia del petróleo en términos de volumen de energía producida (aunque las unidades son diferentes, la escala visual lo hace evidente) y subraya la tendencia a la baja en ambos recursos a lo largo del tiempo.
+![Producción Anual Recurso Barras](plots/produccion_anual_recurso_barras.png)
 
 Gráfico 5: Promedio Diario de Producción de Petróleo por Operador (Mbd)
 Insight: Este gráfico revela la contribución promedio diaria de cada operador a la producción de petróleo. Es fundamental para identificar los operadores más consistentes en el día a día. Se observa que PEMEX Exploración y Producción es, por mucho, el operador dominante en términos de promedio diario, con una brecha significativa respecto a los demás.
+![Promedio Diario Petróleo por Operador](plots/promedio_diario_petroleo_operador.png)
 
 Gráfico 6: Promedio Diario de Producción de Gas Natural sin Nitrógeno por Operador (MMpcd)
 Insight: De manera análoga al petróleo, PEMEX Exploración y Producción también lidera abrumadoramente la producción promedio diaria de gas natural sin nitrógeno. La distribución de la producción de gas entre los operadores es similar a la del petróleo, con una alta concentración en el operador estatal.
+![Promedio Diario Gas por Operador](plots/promedio_diario_gas_operador.png)
 
 Gráfico 7: Producción Total de Petróleo por Operador (escala logarítmica)
 Insight: La aplicación de una escala logarítmica es crucial aquí. Permite visualizar la producción de todos los operadores, incluso aquellos con volúmenes muy pequeños que serían invisibles en una escala lineal. Este gráfico confirma la hegemonía abrumadora de PEMEX en la producción total de petróleo, pero a la vez hace visible y comparable la existencia y contribución de otros operadores privados y consorcios, destacando la diversidad (aunque de menor magnitud) en el mercado.
+![Producción Total Gas Log](plots/produccion_total_gas_operador_log.png)
+
 
 Gráfico 8: Producción Total de Gas Natural por Operador (escala logarítmica)
 Insight: Al igual que con el petróleo, la escala logarítmica en la producción total de gas natural por operador es indispensable. Muestra claramente la vasta diferencia de magnitud entre PEMEX y el resto de los operadores, mientras que simultáneamente permite apreciar las contribuciones y el posicionamiento relativo de los operadores más pequeños en el mercado de gas.
+![Producción Total Petróleo Log](plots/produccion_total_petroleo_operador_log.png)
+
 
 Gráfico 9: Top 10 Operadores de Petróleo por Producción Acumulada
 Insight: Este gráfico se enfoca en los 10 operadores más importantes por producción acumulada de petróleo. Si PEMEX fue excluido (o si su barra es tan grande que aún domina), este gráfico permite analizar la jerarquía y la concentración de la producción entre los principales actores más allá del gigante estatal. Es útil para identificar a los "siguientes en la línea" en términos de impacto en la producción nacional.
+![Top 10 Operadores Petróleo](plots/top10_operadores_petroleo.png)
 
 Gráfico 10: Top 1 Operador por Año – Petróleo (Mbd)
 Insight: Este gráfico de barras apiladas (o agrupadas por año) muestra quién ha sido el operador principal en la producción de petróleo en cada año. Si PEMEX es consistentemente el "Top 1", este gráfico lo reafirma. Si hay otros operadores que han logrado ser el "Top 1" en algún año (aunque sea con menor volumen), esto indicaría cambios en el liderazgo o la emergencia de nuevos actores dominantes en periodos específicos.
+![Top 1 Operador Anual Petróleo](plots/top1_operador_anual_petroleo.png)
 
 Gráfico 11: Top 1 Operador por Año – Gas sin Nitrógeno (MMpcd)
 Insight: De forma análoga al petróleo, este gráfico revela el liderazgo anual en la producción de gas natural. Si PEMEX mantiene su posición como "Top 1" en todos los años, subraya su rol central en la producción de gas. Cualquier cambio o aparición de otro operador en esta posición sería un hallazgo significativo.
+![Top 1 Operador Anual Gas](plots/top1_operador_anual_gas.png)
+
 
 Gráfico 12: Top 10 Campos por Producción Acumulada de Petróleo (Mbd)
 Insight: Este gráfico es crucial para identificar las "joyas de la corona" de la producción petrolera mexicana. Muestra los 10 campos individuales que más han contribuido a la producción acumulada de petróleo. Los nombres de estos campos son de alto valor estratégico, y un análisis más profundo de cada uno (como la funcionalidad de IA que planeamos) sería fundamental.
+![Top 10 Campos Petróleo](plots/top10_campos_petroleo.png)
 
 Gráfico 13: Top 10 Campos por Producción Acumulada de Gas Natural sin Nitrógeno (MMpcd)
 Insight: Similar al gráfico de campos de petróleo, este visualiza los 10 campos más productivos en términos de gas natural. Es esencial para comprender las fuentes primarias de gas del país y para cualquier estrategia de desarrollo o inversión en este recurso.
+![Top 10 Campos Gas](plots/top10_campos_gas.png)
 
 🤖 Siguientes Pasos con Machine Learning
 Como siguiente fase, el proyecto integrará capacidades de Machine Learning para:
