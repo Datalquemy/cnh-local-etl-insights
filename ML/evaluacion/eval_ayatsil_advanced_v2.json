@@ -1,0 +1,11 @@
+{
+    "nombre_modelo": "ayatsil_xgb_advanced_v2",
+    "fecha_entrenamiento": "2025-07-21",
+    "metrica": {
+        "tipo": "RMSE",
+        "valor": 3.46
+    },
+    "comparativa_v1": {
+        "rmse_v1": 3.89
+    }
+}

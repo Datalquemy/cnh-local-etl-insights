@@ -1,0 +1,8 @@
+{
+    "nombre_modelo": "ayatsil_xgb_simple_v1",
+    "fecha_entrenamiento": "2025-07-18",
+    "metrica": {
+        "tipo": "RMSE",
+        "valor": 3.89
+    }
+}
